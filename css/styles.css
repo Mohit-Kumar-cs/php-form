@@ -1,0 +1,73 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    /* border: 2px solid rgb(150, 19, 226); */
+    border-radius: 10px 10px;
+    max-width: 70%;
+    /* background-color: rgb(209, 167, 233); */
+    padding: 34px 6%;
+    margin: auto;
+}
+
+.bg {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+.container h1 {
+    text-align: center;
+    color: red;
+}
+
+p {
+    text-align: center;
+    font-size: 16px;
+}
+
+.submitmsg {
+    color: rgb(4, 180, 4);
+}
+
+input,
+textarea {
+    display: block;
+    font-size: 20px;
+    width: 100%;
+    margin: 11px auto;
+    padding: 7px;
+    border: 2px solid rgb(150, 19, 226);
+    border-radius: 10px 10px;
+}
+
+.btn {
+    border: 1px solid rgb(150, 19, 226);
+    border-radius: 10px 10px;
+    display: inline;
+    margin: 15px 29px;
+    padding: 12px 39px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(139, 14, 223);
+    color: ghostwhite;
+}
+
+form {
+    margin: 2%;
+}
+
+ ::placeholder {
+    text-align: center;
+}
+
+ :focus::placeholder {
+    color: transparent;
+}
